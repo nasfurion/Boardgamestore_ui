@@ -1,0 +1,12 @@
+.preview {
+    max-width: 30%;
+}
+
+.link {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+.thumbnail {
+    max-width: 150px;
+}
