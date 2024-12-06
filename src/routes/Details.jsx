@@ -23,7 +23,6 @@ export default function Details() {
                 const data = await response.json();
                 if (!ignore) {
                     setBoardGame(data);
-                    console.log(boardGame)
                 }
             } else {
                 setBoardGame(null);

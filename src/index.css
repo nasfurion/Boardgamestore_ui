@@ -1,12 +1,32 @@
 .preview {
-    max-width: 30%;
+  max-width: 30%;
 }
 
 .link {
-    color: inherit;
-    text-decoration: inherit;
-  }
+  color: inherit;
+  text-decoration: inherit;
+}
 
 .thumbnail {
-    max-width: 150px;
+  max-width: 150px;
+}
+
+/* https://stackoverflow.com/questions/35963070/react-router-how-to-disable-a-link-if-its-active */
+.disabled-link {
+  pointer-events: none;
+}
+
+.cart-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-count {
+  position: absolute;
+  top: -20px;
+  right: 1px;
+  color: black;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 12px;
 }
